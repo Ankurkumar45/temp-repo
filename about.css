@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans&family=Kanit&family=Poppins:ital,wght@0,500;1,300&family=Roboto+Mono&family=Space+Grotesk&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* display: block; */
+    color: white;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.head {
+    background-color: #45991e;
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.social-media {
+    /* background-color: #fff; */
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-2 {
+    /* background-color: #dc13df; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.logo-div img {
+    width: 150px;
+    height: 90px;
+}
+
+.nav-list-div ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list-div ul li {
+    padding: 15px;
+    font-size: 20px;
+    /* display: table; */
+}
+
+.nav-list-div ul li a {
+    color: black;
+    /* display: table-cell;
+    vertical-align: middle; */
+}
+
+.contact-div {
+    /* background-color: #09d8ef; */
+    display: flex;
+}
+
+.contact-div i {
+    color: rgb(196, 186, 71);
+    font-size: 2rem;
+}
+
+.tel-number span a {
+    font-size: 20px;
+    color: black;
+}
+
+.image {
+    background-image: url('images/bg_12.jpg');
+    width: 100%;
+    height: 220px;
+    align-items: center;
+    display: table;
+}
+
+.image-about-div {
+    background-color: #114a82;
+    padding: 30px;
+    width: 300px;
+    display: table-cell;
+    vertical-align: middle;
+    /* border-radius: 8px; */
+}
+
+.page-breadcrumb i {
+    font-size: 0.7rem;
+}
+
+.image-div {
+    padding: 85px;
+}
+
+.image-about-div h1 {
+    color: rgb(240, 185, 5);
+    font-size: 30px;
+}
+
+.page-breadcrumb {
+    font-size: 17px;
+}
+
+.contant {
+    display: flex;
+    /* background-color: #ad0be8; */
+    justify-content: space-around;
+}
+
+.contant .text {
+    /* background-color: #09d5e7; */
+    width: 915px;
+    padding: 50px;
+    /* text-align: justify; */
+}
+
+.site-div {
+    background-color: #114a82;
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-around;
+    /* padding: 80px; */
+}
+
+.site-div .registration-div {
+    width: 720px;
+    /* height: 200px; */
+    /* background-color: #ca0bfa; */
+    padding: 10px;
+}
+
+/* .site-div .approved-div{
+ width: 350px;
+    /* height: 200px;
+ background-color: #fff;
+    background-image: url('images/rera-img.png');
+    background-repeat: no-repeat;
+} */
+.site-div .registration-div h1 {
+    color: rgb(240, 185, 5);
+}
+
+.site-div .registration-div h2,
+h3,
+#strong-para {
+    color: white;
+}
+
+#strong-para {
+    line-height: 40px;
+}
+
+.site-div .registration-div #temp-para {
+    border-top: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+table {
+    border-top: 2px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.mainfooter{
+    /* background-color: #d85a5a; */
+    height: 400px;
+}
+.mainfooterdiv2{
+    /* background-color: #50d7e0; */
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.child-footer-div1{
+    /* background-color: #a5e22a; */
+    /* height: 200px;
+    width: 200px; */
+    padding: 10px;
+}
+ .child-footer-div1 h2, .child-footer-div2 h2, .child-footer-div3 h2{
+    /* color: rgb(240, 185, 5); */
+    border-bottom: 3px solid black;
+}
+.child-footer-div1 div i{
+    font-size: 1.5rem;
+    color: rgb(240, 185, 5);;
+}
+.child-footer-div2{
+    /* background-color: #f5f513; */
+    padding: 10px;
+}
+.child-footer-div2 span{
+    border-bottom: 1px solid rgb(228, 226, 226);
+}
+.child-footer-div3{
+    /* background-color: #0e70e1; */
+    padding: 10px;
+}
+.child-footer-div3 span a{
+    color: black;
+}
+/* .child-footer-div4{
+    /* background-color: #e22a86;
+    height: 200px;
+    width: 200px;
+} */
